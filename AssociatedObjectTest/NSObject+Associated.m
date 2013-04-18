@@ -7,7 +7,6 @@
 //
 
 #import "NSObject+Associated.h"
-//#import "NSObject+AssociatedProperties.h"
 #import "AssociatedProperties.h"
 
 @implementation NSObject (Associated)

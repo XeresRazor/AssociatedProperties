@@ -8,6 +8,7 @@
 
 #import "NSObject+OtherAssociated.h"
 #import "AssociatedProperties.h"
+
 @implementation NSObject (OtherAssociated)
 @dynamic associatedArray;
 
