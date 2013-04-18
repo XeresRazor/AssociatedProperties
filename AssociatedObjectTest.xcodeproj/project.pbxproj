@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19D470571720306A002E4854 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D470561720306A002E4854 /* Foundation.framework */; };
+		19D4705A1720306A002E4854 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D470591720306A002E4854 /* main.m */; };
+		19D4705E1720306A002E4854 /* AssociatedObjectTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19D4705D1720306A002E4854 /* AssociatedObjectTest.1 */; };
+		19D4706617203087002E4854 /* MYModelClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D4706517203087002E4854 /* MYModelClass.m */; };
+		19D47069172030BF002E4854 /* MYModelClass+Associated.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D47068172030BF002E4854 /* MYModelClass+Associated.m */; };
+		19D4706D17204380002E4854 /* NSObject+AssociatedProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D4706C17204380002E4854 /* NSObject+AssociatedProperties.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		19D470511720306A002E4854 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				19D4705E1720306A002E4854 /* AssociatedObjectTest.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		19D470531720306A002E4854 /* AssociatedObjectTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AssociatedObjectTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D470561720306A002E4854 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		19D470591720306A002E4854 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19D4705C1720306A002E4854 /* AssociatedObjectTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AssociatedObjectTest-Prefix.pch"; sourceTree = "<group>"; };
+		19D4705D1720306A002E4854 /* AssociatedObjectTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AssociatedObjectTest.1; sourceTree = "<group>"; };
+		19D4706417203087002E4854 /* MYModelClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYModelClass.h; sourceTree = "<group>"; };
+		19D4706517203087002E4854 /* MYModelClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYModelClass.m; sourceTree = "<group>"; };
+		19D47067172030BF002E4854 /* MYModelClass+Associated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MYModelClass+Associated.h"; sourceTree = "<group>"; };
+		19D47068172030BF002E4854 /* MYModelClass+Associated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MYModelClass+Associated.m"; sourceTree = "<group>"; };
+		19D4706B17204380002E4854 /* NSObject+AssociatedProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AssociatedProperties.h"; sourceTree = "<group>"; };
+		19D4706C17204380002E4854 /* NSObject+AssociatedProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AssociatedProperties.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19D470501720306A002E4854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D470571720306A002E4854 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19D4704A1720306A002E4854 = {
+			isa = PBXGroup;
+			children = (
+				19D470581720306A002E4854 /* AssociatedObjectTest */,
+				19D470551720306A002E4854 /* Frameworks */,
+				19D470541720306A002E4854 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19D470541720306A002E4854 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19D470531720306A002E4854 /* AssociatedObjectTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19D470551720306A002E4854 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19D470561720306A002E4854 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19D470581720306A002E4854 /* AssociatedObjectTest */ = {
+			isa = PBXGroup;
+			children = (
+				19D470591720306A002E4854 /* main.m */,
+				19D4706B17204380002E4854 /* NSObject+AssociatedProperties.h */,
+				19D4706C17204380002E4854 /* NSObject+AssociatedProperties.m */,
+				19D4706417203087002E4854 /* MYModelClass.h */,
+				19D4706517203087002E4854 /* MYModelClass.m */,
+				19D47067172030BF002E4854 /* MYModelClass+Associated.h */,
+				19D47068172030BF002E4854 /* MYModelClass+Associated.m */,
+				19D4705D1720306A002E4854 /* AssociatedObjectTest.1 */,
+				19D4705B1720306A002E4854 /* Supporting Files */,
+			);
+			path = AssociatedObjectTest;
+			sourceTree = "<group>";
+		};
+		19D4705B1720306A002E4854 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19D4705C1720306A002E4854 /* AssociatedObjectTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19D470521720306A002E4854 /* AssociatedObjectTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D470611720306A002E4854 /* Build configuration list for PBXNativeTarget "AssociatedObjectTest" */;
+			buildPhases = (
+				19D4704F1720306A002E4854 /* Sources */,
+				19D470501720306A002E4854 /* Frameworks */,
+				19D470511720306A002E4854 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AssociatedObjectTest;
+			productName = AssociatedObjectTest;
+			productReference = 19D470531720306A002E4854 /* AssociatedObjectTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19D4704B1720306A002E4854 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "digital-worlds";
+			};
+			buildConfigurationList = 19D4704E1720306A002E4854 /* Build configuration list for PBXProject "AssociatedObjectTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 19D4704A1720306A002E4854;
+			productRefGroup = 19D470541720306A002E4854 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19D470521720306A002E4854 /* AssociatedObjectTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19D4704F1720306A002E4854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D4705A1720306A002E4854 /* main.m in Sources */,
+				19D4706617203087002E4854 /* MYModelClass.m in Sources */,
+				19D47069172030BF002E4854 /* MYModelClass+Associated.m in Sources */,
+				19D4706D17204380002E4854 /* NSObject+AssociatedProperties.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		19D4705F1720306A002E4854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		19D470601720306A002E4854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		19D470621720306A002E4854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AssociatedObjectTest/AssociatedObjectTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		19D470631720306A002E4854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AssociatedObjectTest/AssociatedObjectTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19D4704E1720306A002E4854 /* Build configuration list for PBXProject "AssociatedObjectTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D4705F1720306A002E4854 /* Debug */,
+				19D470601720306A002E4854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19D470611720306A002E4854 /* Build configuration list for PBXNativeTarget "AssociatedObjectTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D470621720306A002E4854 /* Debug */,
+				19D470631720306A002E4854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19D4704B1720306A002E4854 /* Project object */;
+}
