@@ -10,9 +10,8 @@
 		19D470571720306A002E4854 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D470561720306A002E4854 /* Foundation.framework */; };
 		19D4705A1720306A002E4854 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D470591720306A002E4854 /* main.m */; };
 		19D4705E1720306A002E4854 /* AssociatedObjectTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19D4705D1720306A002E4854 /* AssociatedObjectTest.1 */; };
-		19D4706617203087002E4854 /* MYModelClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D4706517203087002E4854 /* MYModelClass.m */; };
-		19D47069172030BF002E4854 /* MYModelClass+Associated.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D47068172030BF002E4854 /* MYModelClass+Associated.m */; };
-		19D4706D17204380002E4854 /* NSObject+AssociatedProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D4706C17204380002E4854 /* NSObject+AssociatedProperties.m */; };
+		19D47075172050F9002E4854 /* NSObject+Associated.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D47073172050F9002E4854 /* NSObject+Associated.m */; };
+		19D470791720565F002E4854 /* NSObject+OtherAssociated.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D470781720565F002E4854 /* NSObject+OtherAssociated.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,12 +33,11 @@
 		19D470591720306A002E4854 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		19D4705C1720306A002E4854 /* AssociatedObjectTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AssociatedObjectTest-Prefix.pch"; sourceTree = "<group>"; };
 		19D4705D1720306A002E4854 /* AssociatedObjectTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AssociatedObjectTest.1; sourceTree = "<group>"; };
-		19D4706417203087002E4854 /* MYModelClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYModelClass.h; sourceTree = "<group>"; };
-		19D4706517203087002E4854 /* MYModelClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYModelClass.m; sourceTree = "<group>"; };
-		19D47067172030BF002E4854 /* MYModelClass+Associated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MYModelClass+Associated.h"; sourceTree = "<group>"; };
-		19D47068172030BF002E4854 /* MYModelClass+Associated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MYModelClass+Associated.m"; sourceTree = "<group>"; };
-		19D4706B17204380002E4854 /* NSObject+AssociatedProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AssociatedProperties.h"; sourceTree = "<group>"; };
-		19D4706C17204380002E4854 /* NSObject+AssociatedProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AssociatedProperties.m"; sourceTree = "<group>"; };
+		19D47072172050F9002E4854 /* NSObject+Associated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Associated.h"; sourceTree = "<group>"; };
+		19D47073172050F9002E4854 /* NSObject+Associated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Associated.m"; sourceTree = "<group>"; };
+		19D4707617205222002E4854 /* AssociatedProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssociatedProperties.h; sourceTree = "<group>"; };
+		19D470771720565F002E4854 /* NSObject+OtherAssociated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+OtherAssociated.h"; sourceTree = "<group>"; };
+		19D470781720565F002E4854 /* NSObject+OtherAssociated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+OtherAssociated.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,13 +80,12 @@
 		19D470581720306A002E4854 /* AssociatedObjectTest */ = {
 			isa = PBXGroup;
 			children = (
+				19D4707617205222002E4854 /* AssociatedProperties.h */,
+				19D47072172050F9002E4854 /* NSObject+Associated.h */,
+				19D47073172050F9002E4854 /* NSObject+Associated.m */,
 				19D470591720306A002E4854 /* main.m */,
-				19D4706B17204380002E4854 /* NSObject+AssociatedProperties.h */,
-				19D4706C17204380002E4854 /* NSObject+AssociatedProperties.m */,
-				19D4706417203087002E4854 /* MYModelClass.h */,
-				19D4706517203087002E4854 /* MYModelClass.m */,
-				19D47067172030BF002E4854 /* MYModelClass+Associated.h */,
-				19D47068172030BF002E4854 /* MYModelClass+Associated.m */,
+				19D470771720565F002E4854 /* NSObject+OtherAssociated.h */,
+				19D470781720565F002E4854 /* NSObject+OtherAssociated.m */,
 				19D4705D1720306A002E4854 /* AssociatedObjectTest.1 */,
 				19D4705B1720306A002E4854 /* Supporting Files */,
 			);
@@ -155,9 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				19D4705A1720306A002E4854 /* main.m in Sources */,
-				19D4706617203087002E4854 /* MYModelClass.m in Sources */,
-				19D47069172030BF002E4854 /* MYModelClass+Associated.m in Sources */,
-				19D4706D17204380002E4854 /* NSObject+AssociatedProperties.m in Sources */,
+				19D47075172050F9002E4854 /* NSObject+Associated.m in Sources */,
+				19D470791720565F002E4854 /* NSObject+OtherAssociated.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

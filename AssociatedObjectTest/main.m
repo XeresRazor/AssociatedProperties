@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MYModelClass+Associated.h"
+#import "NSObject+Associated.h"
+#import "NSObject+OtherAssociated.h"
 
 int main(int argc, const char * argv[])
 {
@@ -16,14 +17,12 @@ int main(int argc, const char * argv[])
 	    
 	    // insert code here...
 	    NSLog(@"Hello, World!");
-		MYModelClass *myModel = [[MYModelClass alloc] init];
-		myModel.nativeString = @"Native String";
-		myModel.nativeNumber = @42;
-		
-		NSLog(@"Native string: %@\nNative Number: %@", myModel.nativeString, myModel.nativeNumber);
+		NSObject *myModel = [[NSObject alloc] init];
 		
 		myModel.associatedString = @"Some Associated String";
+		myModel.associatedArray = @[@"Some", @"thing", @"awesome"];
 		NSLog(@"The associated String: %@", myModel.associatedString);
+		NSLog(@"The associated Array:\n%@", myModel.associatedArray);
 	    
 	}
     return 0;
