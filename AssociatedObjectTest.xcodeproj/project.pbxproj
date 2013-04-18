@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		19D470571720306A002E4854 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D470561720306A002E4854 /* Foundation.framework */; };
 		19D4705A1720306A002E4854 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D470591720306A002E4854 /* main.m */; };
-		19D4705E1720306A002E4854 /* AssociatedObjectTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19D4705D1720306A002E4854 /* AssociatedObjectTest.1 */; };
 		19D47075172050F9002E4854 /* NSObject+Associated.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D47073172050F9002E4854 /* NSObject+Associated.m */; };
 		19D470791720565F002E4854 /* NSObject+OtherAssociated.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D470781720565F002E4854 /* NSObject+OtherAssociated.m */; };
 /* End PBXBuildFile section */
@@ -21,7 +20,6 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				19D4705E1720306A002E4854 /* AssociatedObjectTest.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -32,7 +30,6 @@
 		19D470561720306A002E4854 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		19D470591720306A002E4854 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		19D4705C1720306A002E4854 /* AssociatedObjectTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AssociatedObjectTest-Prefix.pch"; sourceTree = "<group>"; };
-		19D4705D1720306A002E4854 /* AssociatedObjectTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AssociatedObjectTest.1; sourceTree = "<group>"; };
 		19D47072172050F9002E4854 /* NSObject+Associated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Associated.h"; sourceTree = "<group>"; };
 		19D47073172050F9002E4854 /* NSObject+Associated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Associated.m"; sourceTree = "<group>"; };
 		19D4707617205222002E4854 /* AssociatedProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssociatedProperties.h; sourceTree = "<group>"; };
@@ -86,7 +83,6 @@
 				19D470591720306A002E4854 /* main.m */,
 				19D470771720565F002E4854 /* NSObject+OtherAssociated.h */,
 				19D470781720565F002E4854 /* NSObject+OtherAssociated.m */,
-				19D4705D1720306A002E4854 /* AssociatedObjectTest.1 */,
 				19D4705B1720306A002E4854 /* Supporting Files */,
 			);
 			path = AssociatedObjectTest;
